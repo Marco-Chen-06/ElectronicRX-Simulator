@@ -83,9 +83,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+This is an electronic prescription software created using JavaFX for the Steel City Codes 2023 Spring Hackathon. The program provides a simplified medium for the user to experience filling prescriptions and researching medications. The following image demonstrates the general look of the software.
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This is an electronic prescription software created with JavaFX. 
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
