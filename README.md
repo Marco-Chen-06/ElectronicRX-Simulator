@@ -86,20 +86,25 @@
 ## About The Project
 
 This is an Electronic Prescription Software created using JavaFX for the Steel City Codes 2023 Spring Hackathon. The program provides a simplified medium for the user to experience filling prescriptions and researching medications. The following image demonstrates the general look of the software upon running the program.
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot1]](https://example.com)
 
 This is an electronic prescription software created with JavaFX. 
 
 ### Getting a Prescription
 
-In order to obtain a prescription, you click one of the two buttons within the RXs section on the bottom right: Get Complete RX, or Get Incomplete RX. Each of these buttons creates a new Prescription object with randomized attributes and adds it to the dashboard. While getting a complete RX is guaranteed to provide a prescription that is 100% filled out, getting an incomplete RX may be missing some information such as the Drug Name, NDC#, Ingredient Cost, Copay, and Amt Due. 
+In order to obtain a prescription, you click one of the two buttons within the RXs section on the bottom right: Get Complete RX, or Get Incomplete RX. Each of these buttons creates a new Prescription object with randomized attributes and adds it to the dashboard. In the screenshot below, a complete and incomplete prescription was added to the dashboard.
+[![Product Name Screen Shot][product-screenshot2]](https://example.com)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Upon clicking on a prescription in the dashboard, you can enter the editing screen. When editing an incomplete RX, you will notice that some information is missing. The missing information is limited to Drug Name, NDC#, Ingredient Cost, Copay, Amt Due, and SIG. In the screenshot below, Brandon Kennedy's prescription is opened. We can see that the NDC# and SIG are incorrect.
+[![Product Name Screen Shot][product-screenshot3]](https://example.com)
+
+When attempting to click the "Save" button, we are prompted with an alert of what the prescription is missing. (The SIG isn't mentioned because SIG represents the how a pharmacist or doctor instructs the drug to be taken. Although it is good practice to have a reasonable SIG, it will be optional within the scope of this program)
+[![Product Name Screen Shot][product-screenshot4]](https://example.com)
 
 ### Filling Out a Prescription
-
 When filling out an incomplete prescription, you may be missing essential information, such as the NDC# or Drug Name. To obtain this information, you can navigate to the Drug Index by pressing the bottom left button in the menu. Here, you can search through different medication based on their names and NDC#, and you can find any essential information necessary to correctly fill out a prescription. 
 
+[![Product Name Screen Shot][product-screenshot2]](https://example.com)
 ### Have fun!
 
 It may be difficult at first to locate the information necessary to fill out the incomplete prescriptions. However, once you get used to the interface of the software and understand how all the information works together, you can start filling perfect prescriptions with little effort! Good luck!
@@ -245,7 +250,11 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: https://www.dropbox.com/scl/fi/dccegxr8j0i84j0p9y8ua/Electronic-RX-Preview.png?rlkey=1t5nzg2t8cr428ilzcioero8o&raw=1
+[product-screenshot1]: https://www.dropbox.com/scl/fi/lk3es07871l5lqid46iqo/BlankRX.png?rlkey=ourufliekaw9wkxlthx5hauad&raw=1
+[product-screenshot2]: https://www.dropbox.com/scl/fi/90l6j4w3p6qqxzh1p53d5/CompleteIncompleteRX.png?rlkey=79wct88m7rwlyfrip5bgp8lqr&raw=1
+[product-screenshot3]: https://www.dropbox.com/scl/fi/59qu8hoethhzgcv4yz6e3/IncompleteRXExample.png?rlkey=dqw450reslrsbdixbqthogzgl&raw=1
+[product-screenshot4]: https://www.dropbox.com/scl/fi/ltbzeh8ipxzcyaj4tmnao/DrugNameIncorrect.png?rlkey=55y0i4f5cpqfm8duvtck5mdvk&raw=1
+[product-screenshot5]: https://www.dropbox.com/scl/fi/59qu8hoethhzgcv4yz6e3/IncompleteRXExample.png?rlkey=dqw450reslrsbdixbqthogzgl&raw=1
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
