@@ -59,6 +59,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#getting-a-prescription">Getting a Prescription</a></li>
+        <li><a href="#filling-out-a-prescription">Filling Out a Prescription</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -83,13 +85,24 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is an electronic prescription software created using JavaFX for the Steel City Codes 2023 Spring Hackathon. The program provides a simplified medium for the user to experience filling prescriptions and researching medications. The following image demonstrates the general look of the software.
+This is an Electronic Prescription Software created using JavaFX for the Steel City Codes 2023 Spring Hackathon. The program provides a simplified medium for the user to experience filling prescriptions and researching medications. The following image demonstrates the general look of the software upon running the program.
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This is an electronic prescription software created with JavaFX. 
 
+### Getting a Prescription
+
+In order to obtain a prescription, you click one of the two buttons within the RXs section on the bottom right: Get Complete RX, or Get Incomplete RX. Each of these buttons creates a new Prescription object with randomized attributes and adds it to the dashboard. While getting a complete RX is guaranteed to provide a prescription that is 100% filled out, getting an incomplete RX may be missing some information such as the Drug Name, NDC#, Ingredient Cost, Copay, and Amt Due. 
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+### Filling Out a Prescription
+
+When filling out an incomplete prescription, you may be missing essential information, such as the NDC# or Drug Name. To obtain this information, you can navigate to the Drug Index by pressing the bottom left button in the menu. Here, you can search through different medication based on their names and NDC#, and you can find any essential information necessary to correctly fill out a prescription. 
+
+### Have fun!
+
+It may be difficult at first to locate the information necessary to fill out the incomplete prescriptions. However, once you get used to the interface of the software and understand how all the information works together, you can start filling perfect prescriptions with little effort! Good luck!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,7 +245,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: https://uc8146508ec6e8acd29d68270856.dl.dropboxusercontent.com/cd/0/inline/CJY5QtoFKfSYF_KzOIPLPNj1oicR6kJmNCGFo8s_egjY9KvJj7QOeTaGYLVqVOFjFUHeONOQrNV0XoBWhgFA1EaSaz-rzWVcsU9UPePV1ccknHQZn8AeKRy3wvnK4rO-tIHwIuYZtt3tspEFr5_kZsFb/file#
+[product-screenshot]: https://www.dropbox.com/scl/fi/dccegxr8j0i84j0p9y8ua/Electronic-RX-Preview.png?rlkey=1t5nzg2t8cr428ilzcioero8o&raw=1
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
